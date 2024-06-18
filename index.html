@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>HTML</title>
+   </head>
+   <hr>
+   <body>
+    <header>
+    <h1>
+        Guia: como crear una pagina web con HTML
+    </h1>
+    <hr>
+     <h2>
+        Introduccion
+     </h2>
+       <p>
+         En esta guia aprenderas a crear una pagina web html desde 0
+        </p>
+        <hr>
+    </header>
+    <br>
+    <main>
+      <br>
+      <hr>
+      <img src="./html.jpg" alt=" imagen ilustrativa html"/>
+      <hr>
+      <br>
+         <section>
+          <hr>
+           <h2>
+            1. Crea el archivo .html
+            </h2>
+            
+          <p>
+            -- Para comenzar, en tu editor, en este caso <a href="https://code.visualstudio.com/download"> Visual Studio Code </a>, abre la carpeta donde deseas guardar tu trabajo.
+          </p>
+
+          <img src="./open folder.jpg" alt=" abrir carpeta"/>
+          <p>
+            -- Luego crea un archivo en la carpeta y dale el nombre **index.html**
+          </p>
+          <img src="./index.jpg" alt="archivo index" />
+          <hr>
+         </section>
+
+         <br>
+     
+         <section>
+            <br>
+            <hr>
+         <h2>
+         2. Estructura basica
+         </h2>
+
+         <p>
+            Una vez tengas creado tu archivo, sea manualmente o utilizando atajos, escribe la estructura básica del documento HTML. Puedes usar la siguiente si lo deseas:
+         </p>
+         <p>
+            
+            <pre>
+                <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="es"&gt;
+                   &lt;head&gt;
+                      &lt;meta charset="UTF-8" /&gt;
+                      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+                      &lt;title&gt;Mi Primer Sitio Web&lt;/title&gt;
+                   &lt;/head&gt;
+                   &lt;body&gt;
+                      &lt;!-- Contenido de la página va aquí--&gt;
+                   &lt;/body&gt;
+                &lt;/html&gt;
+                </code>
+                            </pre>
+         </p>
+         <hr>
+         <img src="./doctype.jpg" alt="estructura basica"/>
+         <hr>
+        </section> 
+        <br>
+        <section>
+         <hr>
+         <h2>
+          3. Agregar contenido
+         </h2>  
+         <p>A continuación, puedes agregar diversos elementos dentro del <code>&lt;body&gt;</code> para construir tu página:</p>
+         <ul>
+            <li><code>&lt;p&gt;</code> para párrafos</li>
+            <li><code>&lt;h1&gt; a &lt;h6&gt;</code> para encabezados</li>
+            <li><code>&lt;ul&gt;</code> y <code>&lt;ol&gt;</code> para listas</li>
+            <li><code>&lt;img&gt;</code> para imágenes</li>
+            <li><code>&lt;a&gt;</code> para enlaces</li>
+           <li> <a href="https://docs.google.com/document/d/1lCIhfps0U18nwhAkx5naWmDnAeNC9Ysho6xQy95HD-A/edit"> presiona aqui para ver mas etiquetas </a></li>
+            
+         </ul>
+         <hr>
+        </section>  
+        <br>
+        <section>
+         <hr>
+            <h2>
+                4.Ejemplo 
+            </h2>
+            <p>
+               Aqui hay una breve desmostracion de una pagina web muy basica.
+            </p>
+                 <pre>
+                    <code>
+                     &lt;!DOCTYPE html&gt;
+                     &lt;html lang="es"&gt;
+                  &lt;head&gt;
+
+                     &lt;meta charset="UTF-8" /&gt;
+                     &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+ 
+                     &lt;title&gt;Mi Primer Sitio Web&lt;/title&gt;
+                  &lt;/head&gt;
+          &lt;body&gt;
+             &lt;header&gt;
+                     &lt;h1&gt;titulo de ejemplo&lt;/h1&gt;
+                     &lt;p&gt;ejemplo ejemplo ejemplo&lt;/p&gt;
+
+             &lt;/header&gt;
+
+            &lt;hr&gt;      
+             &lt;main&gt;
+
+               &lt;section&gt;
+ 
+                     &lt;h2&gt;1. ejemplo&lt;/h2&gt;
+                             
+                            
+                     &lt;ol&gt;1 ejemplo &lt;/ol&gt;
+                             
+                     &lt;ol&gt;2 ejemplo &lt;/ol&gt;
+
+                     &lt;ol&gt;3 ejemplo &lt;/ol&gt;
+
+               &lt;/section&gt;    
+  
+             &lt;/main&gt;
+    
+         &lt;/body&gt;
+                     &lt;/html&gt;
+                    </code>
+                 </pre>
+                 <hr>
+            <br>
+            <hr>
+            
+               <p>
+                  este codigo debe ejecutarse en un navegador
+               </p>
+               <img src="./ejemplo.jpg" alt="ejemplo">
+
+            <br>
+            <br>
+            <a href="C:\Users\julia\OneDrive\Escritorio\html\ejemplo.html">presiona aqui para ejecutar el ejemplo</a>
+        </section>
+        <br>
+        <section>
+         <hr>
+            <h2>
+               5. Subir tu Trabajo a GitHub
+            </h2>
+            <p>Sigue estos pasos para subir tu archivo <code>index.html</code> a <a href="https://github.com/">GitHub</a> :</p>
+            <ol>
+               <li>Abre la terminal y navega a la carpeta de tu proyecto.</li>
+               <hr>
+               <img src="./paso1.jpg" alt="abrir dir">
+
+               <li>Inicializa un repositorio de Git: <code>git init</code></li>
+               <hr>
+               <img src="./paso2.jpg" alt="git init">
+
+               <li>Añade todos los archivos al repositorio: <code>git add .</code></li>
+
+               <li>Realiza el primer commit: <code>git commit -m "First commit: HTML file"</code></li>
+
+               <li>Crea un nuevo repositorio en GitHub.</li>
+
+               <li>Conecta tu repositorio local con el remoto y sube los cambios:</li>
+
+               <pre>
+<code>
+git remote add origin https://github.com/tu_usuario/tu_repositorio.git
+git branch -M main
+git push -u origin main
+</code>
+               </pre>
+            </ol>
+            <hr>
+        </section>
+    </main>           
+   </body>
+</html>
